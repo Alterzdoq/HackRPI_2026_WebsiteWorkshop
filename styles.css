@@ -1,0 +1,107 @@
+html{
+    font-family:Arial;
+}
+#hero-container{
+    display:flex;
+    flex-direction:row;
+}
+#headshot {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+#about-container{
+    max-width:600px;
+}
+#download-button{
+    background-color: darkblue;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    border-radius:4px;
+}
+#headshot{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-left:60px;
+}
+#headline-text{
+    margin-bottom:35px;
+   /* text-align:justify;*/
+}
+.skill-tags li{
+    padding:6px 12px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius:15px;
+    font-size:14px;
+}
+#skills-layout{
+    display:flex;
+    gap:20px;
+    align-items:stretch;
+    max-width:950px;
+}
+.skill-group{
+    flex:1;
+    padding:20px;
+    background-color:#f7f7f7;
+    border: 1px solid #dddddd;
+    border-radius:8px;
+}
+.skill-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+#skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding:0;
+    list-style:none;
+    flex-direction:column;
+}
+body{
+    margin-top:30px;
+    margin-left:30px;
+}
+#skills-title{
+    margin-bottom:30px;
+}
+.group-header{
+    text-decoration: underline;
+}
+#dark-mode-btn{
+    margin-top:30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius:4px;
+    font: size 15px;
+    cursor:pointer;
+    padding:10px;
+}
+.dark-mode{
+    background-color:#1f1f1f;
+    color:white;
+}
+.dark-mode .skill-group{
+    background-color: #2d2d2d;
+    border-color: #555555;
+}
+.dark-mode .group-header{
+    color: white;
+    border-color: #555555;
+}
+.dark-mode #dark-mode-btn{
+    background-color:white;
+    color:#222222;
+}
+.dark-mode #download-button{
+    background-color: #2b399f;
+}
